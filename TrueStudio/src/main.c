@@ -207,72 +207,11 @@ int main(void)
 	ctlnetwork(CN_SET_NETINFO, &gWIZNETINFO);
 	print_network_information();
 
-	// DAD LLA
-	printf("Duplicate_Address_Detection\r\n");
-	Duplicate_Address_Detection(&gWIZNETINFO);
-	ctlnetwork(CN_SET_NETINFO, &gWIZNETINFO);
-	print_network_information();
-
-	// RSRA
-	printf("Address_Auto_Configuration Start");
-	MO_flag = Address_Auto_Config_RA(0, data_buf, sizeof(data_buf), &gWIZNETINFO);
-	ctlnetwork(CN_SET_NETINFO, &gWIZNETINFO);
-	print_network_information();
-
-	if(MO_flag == SLAAC_RDNSS)
+	// Auto Set IPv6
+	if(1 != AddressAutoConfig_Init(&gWIZNETINFO))
 	{
-		// Completed
-
-		printf("Address_Auto_Configuration Succeed\r\n");
-		result_aac = 1;
-	}
-	else if(MO_flag == SLAAC_DHCP6)
-	{
-		// Need Stateless DHCP
-		// Get Other Information
-
-		printf("Address_Auto_Configuration Failed\r\n");
-		printf("Stateless DHCP Start\r\n");
-
-		result_aac = Address_Auto_Config_SLDHCP(0, data_buf);
-		if(result_aac == 1)
-		{
-			printf(" Stateless DHCP Succeed\r\n");
-		}
-		else
-		{
-			printf(" Stateless DHCP Failed\r\n");
-		}
-
-	}
-	else if(MO_flag == SFAAC_DHCP6)
-	{
-		// Need Stateful DHCP
-		// Get Managed Information
-
-		printf("Address_Auto_Configuration Failed\r\n");
-		printf("Stateful DHCP Start\r\n");
-
-		result_aac = Address_Auto_Config_SFDHCP(0, data_buf);
-		if(result_aac == 1)
-		{
-			printf("Stateful DHCP Succeed\r\n");
-		}
-		else
-		{
-			printf("Stateful DHCP Failed\r\n");
-		}
-	}
-	else
-	{
-		printf("Address_Auto_Configuration Failed MO_Flag : 0x%x\r\n", MO_flag);
-		result_aac = 0;
-	}
-
-	if(result_aac != 1)
-	{
+		// Manual Set IPv6
 		gWIZNETINFO = gWIZNETINFO_M;
-		// Manual Set IP
 		ctlnetwork(CN_SET_NETINFO,&gWIZNETINFO);
 	}
 

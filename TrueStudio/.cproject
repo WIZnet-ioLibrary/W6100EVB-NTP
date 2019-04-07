@@ -53,6 +53,7 @@
 									<listOptionValue builtIn="false" value="&quot;${PROJECT}/../Libraries/io6Library/Ethernet&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${PROJECT}/../Libraries/io6Library/Internet&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${PROJECT}/../Libraries/io6Library/Internet/DHCP6&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT}/../Libraries/io6Library/Internet/DNS&quot;"/>
 								</option>
 								<option id="com.atollic.truestudio.common_options.target.endianess.821635433" name="Endianess" superClass="com.atollic.truestudio.common_options.target.endianess"/>
 								<option id="com.atollic.truestudio.common_options.target.mcpu.1592082084" name="Microcontroller" superClass="com.atollic.truestudio.common_options.target.mcpu" value="STM32F103VC" valueType="enumerated"/>
