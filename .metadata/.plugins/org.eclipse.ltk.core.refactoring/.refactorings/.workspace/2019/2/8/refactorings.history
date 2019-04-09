@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;W6100S_Loopback&apos;" deleteContents="false" description="Delete resource &apos;W6100S_Loopback&apos;" element1="/W6100S_Loopback" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1550706372338"/>
-</session>
