@@ -48,7 +48,7 @@ In case of used to TureStduino,it it the same as HTTP Server example.
   ## Code review
   * main.c code flow <br>
   <p align="center">
-    <img width="50%" src="https://user-images.githubusercontent.com/48539052/55776879-19470a80-5ad9-11e9-8945-32cdbd5ba0a3.png" />
+    <img width="50%" src="https://user-images.githubusercontent.com/9648281/55851411-67204900-5b93-11e9-988c-4d1b3d38d744.jpg" />
   </p>
 
    ## Test packet capture file
@@ -57,5 +57,5 @@ In case of used to TureStduino,it it the same as HTTP Server example.
   </p>
 
     
-    - [HTTP_Server_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-NTP/files/3061738/NTP.Result.Packet.Capture.zip)
+    - [NTP_Client_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-NTP/files/3061738/NTP.Result.Packet.Capture.zip)
 
