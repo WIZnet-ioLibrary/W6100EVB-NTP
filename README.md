@@ -57,5 +57,5 @@ In case of used to TureStduino,it it the same as HTTP Server example.
   </p>
 
     
-    - [NTP_Client_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-NTP/files/3061738/NTP.Result.Packet.Capture.zip)
+    -Test packet capture file :  [NTP_Client_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-NTP/files/3061738/NTP.Result.Packet.Capture.zip)
 
