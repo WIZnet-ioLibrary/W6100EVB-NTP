@@ -30,31 +30,20 @@ In case of used to TureStduino,it it the same as HTTP Server example.
 * Demo Environment & Program <br>
 
   - Windows 10 <br>
-  - Internet Explorer <br>
   - Hercules <br>
 
-
+![ntp_wireshark]()
 * Demo Result <br>
   - Power On and push Reset button to start Program<br>
   - Program Run Serial display <br>
   <p align="center">
-    <img width="60%" src="https://user-images.githubusercontent.com/48539052/55784555-c75bb000-5aeb-11e9-9bbe-a662209c9285.png" />
+    <img width="60%" src="https://user-images.githubusercontent.com/9648281/55846427-a09b8900-5b80-11e9-8aaa-21531dc3a065.JPG" />
+    <img width="60%" src="(https://user-images.githubusercontent.com/9648281/55846426-a002f280-5b80-11e9-8688-d5f3e4820448.JPG" />
   </p>
-
-  - Excute Internet Explorer and input device ip address<br>
-  - Internet Explorer contact HTTP Server <br>
+  - If you push the user0 or user1, you can get the time from NTP4 or NTP6
+  
   <p align="center">
-    <img width="60%" src="https://user-images.githubusercontent.com/48539052/55781267-ba878e00-5ae4-11e9-9a48-0c7977b72746.png" />
-  </p>
-
-  - Internet Explorer HTTP Server Device Network Information <br>
-  <p align="center">
-    <img width="60%" src="https://user-images.githubusercontent.com/48539052/55784554-c75bb000-5aeb-11e9-8fee-bc279b42e73f.png" />
-  </p>
-
-  - Internet Explorer HTTP Server Device RGB LED control <br>
-  <p align="center">
-    <img width="60%" src="https://user-images.githubusercontent.com/48539052/55775474-64125380-5ad4-11e9-9c38-0eed6cf6164f.png" />
+    <img width="60%" src="https://user-images.githubusercontent.com/9648281/55846450-b8730d00-5b80-11e9-97a4-102be545a52f.JPG" />
   </p>
 
   ## Code review
@@ -64,5 +53,10 @@ In case of used to TureStduino,it it the same as HTTP Server example.
   </p>
 
    ## Test packet capture file
+     <p align="center">
+    <img width="50%" src="https://user-images.githubusercontent.com/9648281/55846455-bd37c100-5b80-11e9-91bd-4516bc67eac2.JPG" />
+  </p>
+
+    
     - [HTTP_Server_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-HTTP_Server/files/3057274/HTTP_Server_Packet.zip)
 
