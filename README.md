@@ -58,5 +58,5 @@ In case of used to TureStduino,it it the same as HTTP Server example.
   </p>
 
     
-    - [HTTP_Server_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-HTTP_Server/files/3057274/HTTP_Server_Packet.zip)
+    - [HTTP_Server_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-NTP/files/3061738/NTP.Result.Packet.Capture.zip)
 
