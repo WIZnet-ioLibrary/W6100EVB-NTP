@@ -38,7 +38,7 @@ In case of used to TureStduino,it it the same as HTTP Server example.
   - Program Run Serial display <br>
   <p align="center">
     <img width="60%" src="https://user-images.githubusercontent.com/9648281/55846427-a09b8900-5b80-11e9-8aaa-21531dc3a065.JPG" />
-    <img width="60%" src="(https://user-images.githubusercontent.com/9648281/55846426-a002f280-5b80-11e9-8688-d5f3e4820448.JPG" />
+    <img width="60%" src="https://user-images.githubusercontent.com/9648281/55846426-a002f280-5b80-11e9-8688-d5f3e4820448.JPG" />
   </p>
   - If you push the user0 or user1, you can get the time from NTP4 or NTP6
   
