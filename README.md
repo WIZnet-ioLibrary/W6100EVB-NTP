@@ -53,7 +53,7 @@ In case of used to TureStduino,it it the same as HTTP Server example.
 
    ## Test packet capture file
      <p align="center">
-    <img width="50%" src="https://user-images.githubusercontent.com/9648281/55846455-bd37c100-5b80-11e9-91bd-4516bc67eac2.JPG" />
+    <img width="100%" src="https://user-images.githubusercontent.com/9648281/55846455-bd37c100-5b80-11e9-91bd-4516bc67eac2.JPG" />
   </p>
 
     
