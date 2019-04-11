@@ -22,7 +22,7 @@ best fits for low-end Non-OS devices connecting to Ethernet for the Internet of 
 </p>
 
 ## Software Environment
-In case of used to TureStduino, it is the same as HTTP Server example.
+In case of used to TureSTUDIO, it is the same as HTTP Server example.
  - Link : [Software Environment of W6100EVB-HTTP_Server](https://github.com/WIZnet-ioLibrary/W6100EVB-HTTP_Server#Software-Environment)
 
 
