@@ -1,6 +1,7 @@
 #include "HAL_Config.h"
 
 #include "HALInit.h"
+#include "W6100RelFunctions.h"
 #include "misc.h"
 #include "wizchip_conf.h"
 #include "stm32f10x_rcc.h"
