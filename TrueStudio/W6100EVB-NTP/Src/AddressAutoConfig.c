@@ -483,12 +483,12 @@ uint8_t Address_Auto_Config_RA(uint8_t sn, uint8_t *icmpbuf, uint16_t buf_size, 
 					prefix[i] = *p++;
 
 					// =================================================
-					// 20190402
+					// 20190416
 					// Taylor
 					//
 					// Set Subnet Mask from prefix
 
-					netinfo->sn6[i] = prefix[i];
+					netinfo->sn6[i] = 0xFF;
 
 					// =================================================
 				}
