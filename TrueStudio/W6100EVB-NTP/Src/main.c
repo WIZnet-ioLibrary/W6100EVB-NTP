@@ -1,16 +1,5 @@
 #include <stdio.h>
-#include "HAL_Config.h"
-#include "HALInit.h"
-#include "wizchip_conf.h"
-#include "inttypes.h"
-#include "stm32f10x_gpio.h"
-#include "stm32f10x_exti.h"
-#include "W6100RelFunctions.h"
-#include "serialCommand.h"
-#include "stm32f10x_rcc.h"
-#include "loopback.h"
-#include "AddressAutoConfig.h"
-#include "dns.h"
+#include "board.h"
 #include "sntp.h"
 
 
