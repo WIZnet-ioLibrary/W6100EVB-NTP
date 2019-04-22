@@ -59,4 +59,3 @@ In case of used to TrueSTUDIO, it is the same as HTTP Server example.
     
     -Test packet capture file :  [NTP_Client_Packet.zip](https://github.com/WIZnet-ioLibrary/W6100EVB-NTP/files/3061738/NTP.Result.Packet.Capture.zip)
 
-#IPv6 #6100 #ethernet #WIZnet
