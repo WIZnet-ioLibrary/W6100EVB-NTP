@@ -1,13 +1,17 @@
-#ifndef __HALINIT_H_
-#define __HALINIT_H_
+#ifndef __MCU_INIT_H__
+#define __MCU_INIT_H__
+
 
 #include <stdio.h>
-#include "Board.h"
+#include "Board_init.h"
 #include "stm32f10x_conf.h"
 #include "misc.h"
 
-//#define SPI_1
-#define SPI_2  //W6100 EVB
+// For Ethernet Shield
+//#define SPI_1	
+
+// For EVB
+#define SPI_2
 
 #define PRINTF_USART			USART1
 #define PRINTF_USART_RCC		RCC_APB2Periph_USART1
@@ -86,5 +90,7 @@ extern volatile unsigned long globalTimer;
 
 void TIM2_settimer(void);
 unsigned long TIM2_gettimer(void);
+
+
 
 #endif
